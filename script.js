@@ -13,7 +13,7 @@ let interval;
 let gameInterval;
 
 startButton.addEventListener("click", () => {
-    if (run <= 5) {
+    if (run <= 10) {
         startGame();
     }
 });
