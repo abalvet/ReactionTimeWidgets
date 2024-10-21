@@ -33,7 +33,7 @@ function startGame() {
             clearInterval(gameInterval);
             scores.push(count); // Save the score for the current run
             run++;
-            if (run <= 5) {
+            if (run <= 10) {
                 alert(`Run ${run - 1} terminé. Cliquer sur 'DÉMARRER' pour lancer le prochain run.`);
             } else {
                 endSession();
